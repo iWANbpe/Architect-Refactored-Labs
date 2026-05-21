@@ -1,4 +1,4 @@
-import { DomainError } from '../../shared/domain.error';
+import { DomainError } from '../../shared/domain/errors/domain.error';
 
 export class InvalidChatDataError extends DomainError {
   constructor(reason: string) {

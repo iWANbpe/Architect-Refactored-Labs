@@ -1,6 +1,6 @@
 import { ArgumentsHost, Catch, ExceptionFilter } from '@nestjs/common';
 import { Response } from 'express';
-import { DomainError } from './domain.error';
+import { DomainError } from './domain/errors/domain.error';
 
 const ERROR_STATUS: Record<string, number> = {
   // Chat

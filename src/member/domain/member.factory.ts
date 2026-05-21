@@ -1,4 +1,4 @@
-import { DomainError } from '../../shared/domain.error';
+import { DomainError } from '../../shared/domain/errors/domain.error';
 import { DEFAULT_PERMISSIONS, Permission, Role } from './member.enum';
 import { MemberDomain } from './member.domain';
 
